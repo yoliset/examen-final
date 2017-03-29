@@ -11,6 +11,14 @@ p, a, ul {
 }
 
 /*------------------------------------HEADER */
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #665f60;
+}
+.navbar-default .navbar-toggle {
+    border-color: #605049;
+}
 .navbar {
     background: rgba(26, 25, 25, 0.3) !important;
     border: none;
@@ -25,6 +33,7 @@ p, a, ul {
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fcfbfb;
+    padding: 2px;
 }
 .navbar a {
     color:#fff !important;
@@ -32,26 +41,23 @@ p, a, ul {
 .nav li a:hover, .nav li a:focus {
     font-weight: bold !important;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:rgba(84, 78, 78, 0.11);
+}
 .nav li:hover {
     font-size:18px;
     transition:all 0.5s;
 }
 /*------------------------------------- HERO  */
 .hero {
-    background: url(../img/parallax-1.jpg) no-repeat;
-    background-size:cover;
-    height: 800px;
+    height: 100%;;
     color:rgb(244,240,187);
 } 
 .producto{
-    background: url(../img/parallax-3.jpg) no-repeat;
-    background-size:cover;
-    height: 800px;
+    height: 100%;
 }
 .pregunta{
-    background: url(../img/parallax-2.jpg) no-repeat;
-    background-size:cover;
-    height: 800px;
+    height: 100%;
 }
 .campos{
     background: url(../img/parallax-4.jpg) no-repeat;
@@ -69,9 +75,9 @@ p, a, ul {
     color: white;
 }
 .frase3{
-     margin: 0 auto;
-    width: 790px;
-   margin-top: 230px;
+   position: absolute;
+    top: 35%;
+    left: 25%;
     color: white;
 }
 .frase4{
@@ -92,19 +98,38 @@ p, a, ul {
      padding-top: 50px; 
 }
 .logo3{
-     padding-top: 50px; 
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: black;
 }
-.logo2{
-    padding-top: 50px;
+.producto .logo2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
 }
 .logos{
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 5%;
+    left: 5%;
+}
+.frasel{
+    position: absolute;
+    top: 24%;
+    left: 22%;
+}
+.frasel2{
+    position: absolute;
+    top: 34%;
+    left: 25%;
+    color: white;
+}
+.frasel2 p{
+    font-size: 20px;
 }
 .imh{
   color: white;
-    width: 30px;
+    width: 35px;
 }
 
 
@@ -183,6 +208,9 @@ footer {
     .verdes{
         display: none;
     }
+    .frase3 p {
+        font-size: 88px;
+    }
     .medio{
     width: 470px;
     margin: 0 auto;
@@ -202,7 +230,7 @@ footer {
     }
     .verdeh{
         display: block;
-    } 
+    }
 }
 @media screen and (max-width:920px){
    .icon-list2{
@@ -210,6 +238,21 @@ footer {
         float: right;
         color: white;
         font-size: 20px;
+    }
+    .parri1{
+        height:420px;
+    }
+    .parri2{
+        height:420px;
+    }
+    .parri3{
+        height:550px;
+    }
+    .hero{
+        height: 420px;
+    }
+    .producto{
+        height: 420px;
     }
     .col-1, .col-2, .col-3{
         width: 100%;
@@ -241,16 +284,17 @@ footer {
     #carousel{
         display: none;
     }
-    .frase2{
-        width: 320px;
+    .imagen9{
+        width: 260px;
     }
-    .frase2 p{
-        font-size: 14px;
-        margin: 0 auto;
+    .frasel2{
+    position: absolute;
+    left: 5%;
+    color: white;
+    
     }
-    .frase3{
-        width: 320px;
-        font-size: 12px;
+    .frasel2 p{
+    font-size: 13px;
     }
     .frase4{
         width: 320px;
@@ -267,10 +311,16 @@ footer {
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 0px;
-     font-size: 22px;
+     font-size: 2px;
     }
     .medio p{
         font-size: 12px;
+    }
+    .frase3{
+        left: 1px;
+    }
+    .frase3 p{
+        font-size: 44px;
     }
     .medio1{
     width: 350px;
@@ -285,12 +335,18 @@ footer {
     }
     .verdeg{
         display: block;
-        
+
     }
     .verdeh{
         display: none;
     }
     .logo8{
+        display: none;
+    }
+    .imh{
+        display: none;
+    }
+    .im{
         display: none;
     }
 }
