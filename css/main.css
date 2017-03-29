@@ -1,0 +1,297 @@
+
+body {
+    font-family: "Merriweather", serif;
+}
+p, a, ul {
+    font-family: "Open Sans", sans-serif;
+}
+.contacto {
+    background-color: white;
+    margin: 0 auto;
+}
+
+/*------------------------------------HEADER */
+.navbar {
+    background: rgba(26, 25, 25, 0.3) !important;
+    border: none;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(84, 78, 78, 0.11);
+}
+.navbar-brand {
+    font-family: "Merriweather", serif;
+    color:rgb(244,240,187) !important;
+    
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fcfbfb;
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px;
+    transition:all 0.5s;
+}
+/*------------------------------------- HERO  */
+.hero {
+    background: url(../img/parallax-1.jpg) no-repeat;
+    background-size:cover;
+    height: 800px;
+    color:rgb(244,240,187);
+} 
+.producto{
+    background: url(../img/parallax-3.jpg) no-repeat;
+    background-size:cover;
+    height: 800px;
+}
+.pregunta{
+    background: url(../img/parallax-2.jpg) no-repeat;
+    background-size:cover;
+    height: 800px;
+}
+.campos{
+    background: url(../img/parallax-4.jpg) no-repeat;
+    background-size:cover;
+    height: 800px;
+}
+.frase2{
+     margin: 0 auto;
+    width: 790px;
+    margin-top: 230px;
+    color: white;
+}
+.frase2 h1{
+    font-size: 70px;
+    color: white;
+}
+.frase3{
+     margin: 0 auto;
+    width: 790px;
+   margin-top: 230px;
+    color: white;
+}
+.frase4{
+    margin: 0 auto;
+    width: 790px;
+   margin-top: 30px;
+    color: white;
+}
+.frase2 p{
+    font-size: 25px;
+    color: white;
+}
+.hero .frase{
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.logo4{
+     padding-top: 50px; 
+}
+.logo3{
+     padding-top: 50px; 
+}
+.logo2{
+    padding-top: 50px;
+}
+.logos{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.imh{
+  color: white;
+    width: 30px;
+}
+
+
+/*-------------------------------------ABOUT */
+.about {
+    padding: 60px 0;
+    color: white;
+}
+/*-------------------------------------CONTACTO*/
+.contacto{
+    padding: 40px 0 80px 0;
+    
+}
+.contacto h3 {
+    margin: 20px 0 20px 0;
+    color: salmon;
+    font-size: 40px;
+}
+.caji{
+    margin-left: 30px;
+}
+.co{
+    padding: 0px;
+}
+.palabra{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    color: white;
+    width: 180px;
+}
+.verdes{
+    background-color: greenyellow;
+    height: 130px;
+}
+.p{
+    color: black;
+}
+.img5{
+   padding-top: 60px;
+    padding-left: 45px;
+}
+/* ---------------------------------------FOOTER -- */
+footer {
+    background: rgb(95, 69, 71);
+    color: #fff;
+    padding: 14px 0px;
+}
+.naranja{
+    background-color: navajowhite;
+    height: 120px;
+}
+.vainilla{
+    background-color: rosybrown;
+    height: 120px;
+}
+.verdeg{
+    background-color: greenyellow;
+    height: 120px;
+}
+
+@media screen and (max-width:1920px){
+   .icon-list2{
+        display: inline-block;
+        float: right;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .col-1, .col-2, .col-3{
+        width: 100%;
+    }
+    .list-menu{
+        display: none;
+    }
+    .verdes{
+        display: none;
+    }
+    .medio{
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 210px;
+    }
+    .medio1{
+    width: 750px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+    .vainilla{
+        display: none;
+    }
+    .verdeg{
+        display: none;
+    }
+    .verdeh{
+        display: block;
+    } 
+}
+@media screen and (max-width:920px){
+   .icon-list2{
+        display: inline-block;
+        float: right;
+        color: white;
+        font-size: 20px;
+    }
+    .col-1, .col-2, .col-3{
+        width: 100%;
+    }
+    .list-menu{
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    .verdes{
+        display: block;
+    }
+    .infusion{
+        display: none;
+    }   
+    .mora{
+        display: none;
+    }
+    .naranja{
+        display: block;
+    }
+    .verde{
+        display: block;
+    }
+    .campos{
+        display: none;
+    }
+    #carousel{
+        display: none;
+    }
+    .frase2{
+        width: 320px;
+    }
+    .frase2 p{
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .frase3{
+        width: 320px;
+        font-size: 12px;
+    }
+    .frase4{
+        width: 320px;
+    }
+    
+    .te{
+        display: block;
+    }
+    .green{
+        display: none;
+    }
+     .medio{
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 0px;
+     font-size: 22px;
+    }
+    .medio p{
+        font-size: 12px;
+    }
+    .medio1{
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+    .vainilla{
+        display: block;
+        margin-top: 120px;
+        margin-bottom: 59px;
+        padding: 0px;
+    }
+    .verdeg{
+        display: block;
+        
+    }
+    .verdeh{
+        display: none;
+    }
+    .logo8{
+        display: none;
+    }
+}
+
